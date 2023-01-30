@@ -1,7 +1,10 @@
-import axios from "axios";
+import axios from 'axios';
+
 
 const entriesApi = axios.create({
-  baseURL: "api/",
-});
+    baseURL: '/api'
+})
+
 
 export default entriesApi;
+

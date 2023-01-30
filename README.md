@@ -3,9 +3,15 @@
 Para correr localmente, se necesita la base de datos
 
 ```
-docker-compose up -d
+docker compose up -d 
 
 ```
+or
+```
+docker-compose up -d 
+
+```
+
 
 * La bandera de -d significa __detached__
 * MondoDB URL local:
